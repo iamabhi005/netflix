@@ -1,0 +1,287 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+}
+
+main {
+    
+    opacity: 1;
+    height: 80vh;
+    background: 
+    linear-gradient( transparent, rgb(20, 19, 19)),
+    linear-gradient(to top, transparent, rgb(33, 34, 33)),
+
+     url(net.jpeg);
+    position: relative;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1200px, 100vw);
+    height: 80vh;
+    background: linear-gradient( to button left,black,rgb(180, 18, 18));
+}
+
+nav {
+    max-width: 80vw;
+    justify-content: space-between;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    height: 60px;
+    
+}
+
+nav svg {
+    color: red;
+    z-index: 10;
+    position: relative;
+}
+
+nav button {
+    z-index: 10;
+    position: relative;
+}
+
+p1 {
+    font-size: 3.80em;
+    display: inline;
+    display: flex;
+    padding: 55px 350px;
+    margin-block-start: 1em;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+}
+
+p2 {
+
+    display: block;
+    font-size: 1.30em;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: -45px;
+    color: white;
+}
+
+p3 {
+    display: block;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 80px 1px;
+    font-size: 1.10em;
+
+}
+
+.boxses {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: -50px;
+    gap: 16px;
+}
+
+.separetion {
+    height: 7px;
+    background-color: rgb(56, 55, 55);
+    border-radius: inherit;
+}
+
+.btn {
+    padding: 3px 8px;
+    font-weight: bold;
+    background-color: inherit;
+    color: white;
+    padding: 7px 30px;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-size: 20px;
+    /* padding: 10px; */
+    cursor: pointer;
+
+}
+
+.btn-red {
+    background-color: red;
+    color: white;
+    border: initial;
+    padding: 9px 30px;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+.red-btn {
+    background-color: red;
+    color: white;
+    border-radius: 7px;
+    border: initial;
+    padding: 13px 38px;
+    font-size: 1.125rem;
+    font-size: 34px;
+    display: inline-flex;
+    margin-left: 0.5rem;
+    cursor:pointer;
+
+}
+
+input {
+    color: white;
+    border-radius: 4px;
+    border: initial;
+    border: 1px solid white;
+    padding: 20px 47px;
+    font-size: 20px;
+    background-color: initial;
+}
+
+.first {
+    display: flex;
+    justify-content: center;
+    max-width: 70vw;
+    margin: auto;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgo {
+    position: relative;
+}
+    
+@media screen and (max-width: 1250px){
+   
+    .first{
+    flex-wrap: wrap;
+
+    }
+    .imgo img{
+        width: 4px;
+    } 
+}
+@media screen and (max-width: 1238px){
+    .imgoo{
+        top: 112vw;
+        right: 434px;
+    }
+}
+
+.imgo img {
+    width: 30vw;
+    z-index: 10;
+    position: relative;
+
+}
+
+.imgo video {
+    position: absolute;
+    top: 51px;
+    right: 0;
+    width: 26vw;
+}
+.imgoo img {
+    width: 30vw;
+    z-index: 10;
+    position: relative;
+
+}
+.imgoo video {
+    position: absolute;
+    top: 93vw;
+    right: 16vw;
+    width: 26vw;
+
+}
+
+.first>div {
+    display: flex;
+    flex-direction: column;
+}
+
+.first>div :nth-child(1) {
+    font-size: 48px;
+    font-weight: bolder;
+    position: relative;
+
+}
+
+.first>span :nth-child(2) {
+    font-size: 24px;
+    font-weight: bolder;
+
+}
+
+.abbox {
+    display: flex;
+    background-color:#2d2d2d;
+    padding: 24px;
+    max-width: 40vw;
+    margin: 32px auto;
+    justify-content: space-between;
+    cursor: pointer;
+    font-size: 24px;
+    transition: all 1s ease-out;
+}
+.abbox svg{
+    filter: invert(1);
+}
+.abbox:hover{
+    background-color: #414141;
+}
+.com {
+    background: black;
+    color: white;
+    padding: 34px;
+}
+
+.com h2 {
+    text-align: center;
+font-size: 48px;
+}
+footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: white;
+    margin: auto;
+    max-width: 60vw;
+    
+}
+.footer-aitam{
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+}
+.class{
+    color: white;
+    margin: 2px 20vw;
+    padding: 14px;
+}
+footer a{
+    font-size: 15px;
+    color: white;
+}
+footer .class{
+    padding: 23px 0;
+}
+    
+@media screen and(max-width:1300px){
+    .first{
+        flex-wrap: wrap;
+    }
+}
+@media screen and(max-width:1300px){
+    .footer{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        color: white;
+        
+    }
+}
+
